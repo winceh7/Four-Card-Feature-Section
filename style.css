@@ -28,6 +28,7 @@ main {
     justify-content: center;
     width: 100%;
     max-height: 20%;
+    margin-bottom: 2em;
 }
 
 #text-container {
@@ -38,6 +39,10 @@ main {
 
 #unbold {
     font-weight: 200;
+}
+
+#description {
+    padding: 1em;
 }
 
 #card-area {
@@ -52,7 +57,7 @@ main {
 }
 
 .card {
-    width: min(350px, 450px);
+    width: clamp(300px, 300px + 4vw, 450px);
     height: 260px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 0.5em;
@@ -100,7 +105,8 @@ img {
 
 @media screen and (max-width: 1024px) {
     main {
-        min-height: 90%;
+        height: auto;
+        margin-top: 10%;
     }
 
     #card-area {
@@ -129,10 +135,12 @@ img {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
+    
     #card-area {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(4, 1fr);
+        margin-bottom: 10%;
     }
 
     #supervisor {
@@ -155,4 +163,7 @@ img {
         grid-row: 4;
     }
     
+    h1 {
+        font-size: 1.6em;
+    }
 }
