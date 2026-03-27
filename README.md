@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repository](https://github.com/winceh7/Four-Card-Feature-Section)
+- Live Site URL: [Live Site](https://winceh7.github.io/Four-Card-Feature-Section/)
 
 ## My process
 
@@ -39,7 +39,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
+- Desktop-first workflow
 
 ### What I learned
 
